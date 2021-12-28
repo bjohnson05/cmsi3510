@@ -1,6 +1,6 @@
 # CMSI 3510: Homework Assignment #3
 ## Problems Focusing on Deadlock, File Access, and Message Passing
-### Assignment Due: Friday 2021-04-081 [Friday of week 13]
+### Assignment Due: Friday 2021-04-08 [Friday of week 13]
 
 <blockquote>
 Learning Outcomes: Students will:
