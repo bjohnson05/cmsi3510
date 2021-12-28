@@ -1,6 +1,6 @@
 # CMSI 3510: Homework Assignment #2
 ## Problems Focusing on Threading and Synchronization
-### Assignment Due: Friday 2021-03-11 [Friday of week 10]
+### Assignment Due: Friday 2021-03-11 [Friday of week 09]
 
 <blockquote>
 Learning Outcomes: Students will:
