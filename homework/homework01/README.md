@@ -1,6 +1,6 @@
 # CMSI 3510: Homework Assignment #1
 ## General problems of an Introductory Nature
-### Assignment Due: Friday 2021-02-11 [Friday of week 05]
+### Assignment Due: Friday 2021-02-04 [Friday of week 04]
 
 <blockquote>
 Learning Outcomes: Students will:
