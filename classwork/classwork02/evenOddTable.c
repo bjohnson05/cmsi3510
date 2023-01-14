@@ -25,17 +25,9 @@
 
 int main( int argc, char * argv[] ) {
 
-   int i = START_VALUE;
-   int evenCount = 0;
-   int oddCount = 0;
-   printf( "\n\n   EVEN/ODD TABLE\n\n" );
-
-   while( i <= END_VALUE ) {
-      printf( "\t%3d\t%3d\t%s\n", i, (i * i), ((i % 2) == 0) ? "EVEN" : "ODD" );
-      ((i++ % 2) == 0) ? evenCount++ : oddCount++;
-   }
-   printf( "\n   #evens: %d\n", evenCount );
-   printf( "   # odds: %d\n", oddCount );
+   // TODO:  This is where you will fill in the code on your own
+   //   to get the program to perform the specified operations
+   
    exit( 0 );
 
 }
