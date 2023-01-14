@@ -16,6 +16,14 @@
  *    6. Try to make all the output columns line up neatly. You can
  *          decide whether they are left- or right- justified.
  *          Left is easier, but right looks nicer for the numbers.
+ *    7. As an extra challenge, dress up your output with more text
+ *          that describes what each row represents, like making it
+ *          say "-10 squared is 100 which is EVEN"
+ *    8. Another extra challenge, keep a running total of the squared
+ *          values, and output a line at the end of the results that
+ *          displays the 'sum of squares'
+ *    9. Yet another challenge, make your program take the lower and
+ *          upper bounds of the table as arguments on the command line
  */
 
 #include <stdio.h>
