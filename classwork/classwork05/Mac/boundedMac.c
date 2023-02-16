@@ -42,6 +42,7 @@
                x--;
                mutex = signal_( mutex );
                printf( "  consumer consumes the item %d\n", x );
+               usleep( 54321 );
             } else {
                printf( "\t\t\tBuffer is empty!!\n" );
             }
@@ -75,7 +76,7 @@
          printf( " .. consumer child thread started... \n" );
       }
 
-      while( count < 25 ) {
+      while( count < 50 ) {
          printf( "  parent is sleeping for one second....\n" );
          sleep( 1 );
          count++;
