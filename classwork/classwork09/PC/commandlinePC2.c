@@ -51,7 +51,7 @@
             sprintf( command, "C:\\Windows\\System32\\cmd.exe /C %s", input );
 //            printf( "      command line is: %s\n", command );
             retval = CreateProcess( NULL,    // NULL means use the command line
-                                    command,   // Command to execute
+                                    command, // Command to execute
                                     NULL,    // Process handle not inheritable
                                     NULL,    // Thread handle not inheritable
                                     FALSE,   // Set handle inheritance to FALSE
@@ -75,4 +75,3 @@
          }
       }
    }
-            

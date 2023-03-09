@@ -1,0 +1,32 @@
+
+Week 7 In-class Exercise
+========================
+
+<p>The exercise this week is to create a simulation which will model the operation of page access using
+   Virtual Memory.  The idea of the exercise is to model several page frames of instructions using arrays,
+   then model a fixed-size page array, that will contain pointers to the page frames.  This will model the
+   situation of the figure near the top of this page.  You will then create a set of threads that will all
+   access the page frames, via the page array, in random order and for a short time so that no thread will
+   <q>run to completion</q> during any one turn.  This will simulate loading pages from Virtual Memory
+   into Physical Memory.</p>
+<p>You will do the following tasks:</p>
+<ol><li>Create the file <code>VMSimulator.c</code></li>
+    <li>Create a table that contains 4096 integer entries; this simulates a page in virtual memory for one
+        program</li>
+    <li>Fill the table with random values in the range of 1 - 65536 inclusive; this simulates the program
+        code and data of one program</li>
+    <li>Repeat steps 2 and 3 for five more arrays</li>
+    <li>Create a table of int values that contains the pointers to the six pages</li>
+    <li>Create a thread function that will simulate a running program by reading and displaying the values
+        from the pages in virtual memory; note that the thread function will read several lines from its
+        own block, then will pause and let another thread run</li>
+    <li>Write a main method that will spawn six threads; make each thread run for a small amount of time,
+        during which it outputs the numbers in its own virtual memory page &ndash; the page should be
+        loaded from the POINTERS which are in the second table of the simulation, NOT from the VM tables
+        directly, and the threads should NOT execute all the way to the end before they stop to let another
+        thread run unless they run out of memory space before the end of their time is up</li>
+    <li>When the simulation reaches the end of the <q>code</q> for each thread, that one should stop
+        executing because it is finished</li>
+    <li>Run the simulation until all threads have completed; see if you can make the simulation run them
+        in random order, and try to make them complete at different times</li>
+</ol>

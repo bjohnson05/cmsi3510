@@ -1,0 +1,303 @@
+
+
+   Welcome to the Virtual Memory Base Table Simulator......
+
+   Array of size 65536 allocated for physical pages...
+
+
+   Filling physical pages with random values to simulate instructions...
+
+            pageFrame 0
+            pageFrame 1
+            pageFrame 2
+            pageFrame 3
+         Reset pageFrames to start, pageFrames location 0 contains 6508
+                                    pageFrames location 1 contains 16767
+                                    pageFrames location 2 contains 20609
+                                    pageFrames location 3 contains 31486
+                                    pageFrames location 4 contains 28012
+                                    pageFrames location 5 contains 5922
+                                    pageFrames location 6 contains 21236
+                                    pageFrames location 7 contains 205
+                                    pageFrames location 8 contains 28355
+                                    pageFrames location 9 contains 11282
+      tData slot 0 start address is    : 12451912
+      child myThread 0 created successfully and launched...
+      in myThread, thread number: 0, time: 369, address: 12451912, value there: 6508...
+      in myThread, thread number: 0, time: 369, address: 12451912, instruction: 6508...
+         Thread number 0, executing VM instruction: 6508, at address 12451912
+         Thread number 0, executing VM instruction: 16767, at address 12451916
+         Thread number 0, executing VM instruction: 20609, at address 12451920
+         Thread number 0, executing VM instruction: 31486, at address 12451924
+      tData slot 1 start address is    : 12468296
+      child myThread 1 created successfully and launched...
+      in myThread, thread number: 1, time: 123, address: 12468296, value there: 30990...
+      in myThread, thread number: 1, time: 123, address: 12468296, instruction: 30990...
+         Thread number 0, executing VM instruction: 28012, at address 12451928
+         Thread number 0, executing VM instruction: 5922, at address 12451932
+         Thread number 1, executing VM instruction: 30990, at address 12468296
+         Thread number 0, executing VM instruction: 21236, at address 12451936
+         Thread number 0, executing VM instruction: 205, at address 12451940
+         Thread number 1, executing VM instruction: 15578, at address 12468300
+         Thread number 0, executing VM instruction: 28355, at address 12451944
+         Thread number 0, executing VM instruction: 11282, at address 12451948
+         Thread number 1, executing VM instruction: 4015, at address 12468304
+         Thread number 1, executing VM instruction: 10676, at address 12468308
+         Thread number 0, executing VM instruction: 21888, at address 12451952
+         Thread number 0, executing VM instruction: 4176, at address 12451956
+         Thread number 1, executing VM instruction: 7306, at address 12468312
+         Thread number 0, executing VM instruction: 26887, at address 12451960
+         Thread number 1, executing VM instruction: 22534, at address 12468316
+         Thread number 0, executing VM instruction: 30752, at address 12451964
+         Thread number 1, executing VM instruction: 9607, at address 12468320
+      tData slot 2 start address is    : 12484680
+      child myThread 2 created successfully and launched...
+      in myThread, thread number: 2, time: 246, address: 12484680, value there: 11439...
+      in myThread, thread number: 2, time: 246, address: 12484680, instruction: 11439...
+         Thread number 0, executing VM instruction: 8453, at address 12451968
+         Thread number 1, executing VM instruction: 18772, at address 12468324
+         Thread number 1, executing VM instruction: 21614, at address 12468328
+         Thread number 0, executing VM instruction: 32245, at address 12451972
+         Thread number 2, executing VM instruction: 11439, at address 12484680
+         Thread number 0, executing VM instruction: 4541, at address 12451976
+         Thread number 1, executing VM instruction: 15696, at address 12468332
+         Thread number 0, executing VM instruction: 590, at address 12451980
+         Thread number 1, executing VM instruction: 23304, at address 12468336
+         Thread number 0, executing VM instruction: 27085, at address 12451984
+         Thread number 1, executing VM instruction: 21495, at address 12468340
+         Thread number 2, executing VM instruction: 15413, at address 12484684
+         Thread number 0, executing VM instruction: 4335, at address 12451988
+         Thread number 1, executing VM instruction: 8528, at address 12468344
+         Thread number 2, executing VM instruction: 17117, at address 12484688
+         Thread number 0, executing VM instruction: 10013, at address 12451992
+         Thread number 1, executing VM instruction: 17799, at address 12468348
+         Thread number 2, executing VM instruction: 31850, at address 12484692
+         Thread number 1, executing VM instruction: 22034, at address 12468352
+         Thread number 0, executing VM instruction: 5251, at address 12451996
+         Thread number 2, executing VM instruction: 24489, at address 12484696
+         Thread number 1, executing VM instruction: 1805, at address 12468356
+         Thread number 0, executing VM instruction: 1134, at address 12452000
+      tData slot 3 start address is    : 12501064
+      child myThread 3 created successfully and launched...
+      in myThread, thread number: 3, time: 246, address: 12501064, value there: 13393...
+      in myThread, thread number: 3, time: 246, address: 12501064, instruction: 13393...
+         Thread number 2, executing VM instruction: 23786, at address 12484700
+         Thread number 1, executing VM instruction: 32179, at address 12468360
+         Thread number 0, executing VM instruction: 29833, at address 12452004
+         Thread number 2, executing VM instruction: 11290, at address 12484704
+         Thread number 1, executing VM instruction: 10413, at address 12468364
+         Thread number 0, executing VM instruction: 27670, at address 12452008
+         Thread number 3, executing VM instruction: 13393, at address 12501064
+         Thread number 2, executing VM instruction: 30171, at address 12484708
+         Thread number 1, executing VM instruction: 14319, at address 12468368
+         Thread number 0, executing VM instruction: 22403, at address 12452012
+         Thread number 2, executing VM instruction: 3610, at address 12484712
+         Thread number 0, executing VM instruction: 25073, at address 12452016
+         Thread number 1, executing VM instruction: 25289, at address 12468372
+         Thread number 2, executing VM instruction: 21133, at address 12484716
+         Thread number 1, executing VM instruction: 31952, at address 12468376
+         Thread number 0, executing VM instruction: 21434, at address 12452020
+         Thread number 2, executing VM instruction: 21648, at address 12484720
+         Thread number 0, executing VM instruction: 9618, at address 12452024
+         Thread number 1, executing VM instruction: 12715, at address 12468380
+         Thread number 3, executing VM instruction: 16273, at address 12501068
+         Thread number 2, executing VM instruction: 15263, at address 12484724
+         Thread number 0, executing VM instruction: 27421, at address 12452028
+         Thread number 1, executing VM instruction: 21045, at address 12468384
+         Thread number 3, executing VM instruction: 27147, at address 12501072
+         Thread number 2, executing VM instruction: 28056, at address 12484728
+         Thread number 3, executing VM instruction: 29472, at address 12501076
+         Thread number 1, executing VM instruction: 7028, at address 12468388
+         Thread number 0, executing VM instruction: 5939, at address 12452032
+         Thread number 2, executing VM instruction: 22253, at address 12484732
+         Thread number 1, executing VM instruction: 18070, at address 12468392
+         Thread number 0, executing VM instruction: 21242, at address 12452036
+         Thread number 3, executing VM instruction: 14023, at address 12501080
+         Thread number 2, executing VM instruction: 16159, at address 12484736
+         Thread number 1, executing VM instruction: 23108, at address 12468396
+         Thread number 3, executing VM instruction: 9679, at address 12501084
+         Thread number 0, executing VM instruction: 31995, at address 12452040
+         Thread number 2, executing VM instruction: 29734, at address 12484740
+         Thread number 1, executing VM instruction: 8941, at address 12468400
+         Thread number 0, executing VM instruction: 20135, at address 12452044
+         Thread number 3, executing VM instruction: 26286, at address 12501088
+         Thread number 2, executing VM instruction: 15784, at address 12484744
+         Thread number 1, executing VM instruction: 13574, at address 12468404
+         Thread number 3, executing VM instruction: 1633, at address 12501092
+         Thread number 0, executing VM instruction: 29580, at address 12452048
+         Thread number 0, executing VM instruction: 23637, at address 12452052
+         Thread number 3, executing VM instruction: 7109, at address 12501096
+         Thread number 1, executing VM instruction: 5359, at address 12468408
+         Thread number 2, executing VM instruction: 21260, at address 12484748
+         Thread number 3, executing VM instruction: 27594, at address 12501100
+         Thread number 0, executing VM instruction: 27646, at address 12452056
+         Thread number 2, executing VM instruction: 31249, at address 12484752
+         Thread number 1, executing VM instruction: 25416, at address 12468412
+         Thread number 0, executing VM instruction: 11687, at address 12452060
+         Thread number 1, executing VM instruction: 23540, at address 12468416
+         Thread number 3, executing VM instruction: 16920, at address 12501104
+         Thread number 2, executing VM instruction: 22690, at address 12484756
+         Thread number 1, executing VM instruction: 31991, at address 12468420
+         Thread number 2, executing VM instruction: 26242, at address 12484760
+         Thread number 0, executing VM instruction: 27311, at address 12452064
+         Thread number 3, executing VM instruction: 18247, at address 12501108
+         Thread number 3, executing VM instruction: 19937, at address 12501112
+         Thread number 1, executing VM instruction: 5701, at address 12468424
+         Thread number 2, executing VM instruction: 4820, at address 12484764
+         Thread number 0, executing VM instruction: 29118, at address 12452068
+         Thread number 2, executing VM instruction: 21500, at address 12484768
+         Thread number 1, executing VM instruction: 15626, at address 12468428
+         Thread number 0, executing VM instruction: 5519, at address 12452072
+         Thread number 3, executing VM instruction: 11347, at address 12501116
+         Thread number 3, executing VM instruction: 23596, at address 12501120
+         Thread number 2, executing VM instruction: 9823, at address 12484772
+         Thread number 0, executing VM instruction: 25811, at address 12452076
+         Thread number 1, executing VM instruction: 31138, at address 12468432
+         Thread number 1, executing VM instruction: 22099, at address 12468436
+         Thread number 3, executing VM instruction: 17727, at address 12501124
+         Thread number 0, executing VM instruction: 21969, at address 12452080
+         Thread number 2, executing VM instruction: 29973, at address 12484776
+         Thread number 2, executing VM instruction: 24837, at address 12484780
+         Thread number 1, executing VM instruction: 22853, at address 12468440
+         Thread number 0, executing VM instruction: 31141, at address 12452084
+         Thread number 3, executing VM instruction: 20894, at address 12501128
+         Thread number 3, executing VM instruction: 364, at address 12501132
+         Thread number 2, executing VM instruction: 22505, at address 12484784
+         Thread number 0, executing VM instruction: 12333, at address 12452088
+         Thread number 1, executing VM instruction: 21523, at address 12468444
+         Thread number 2, executing VM instruction: 14930, at address 12484788
+         Thread number 0, executing VM instruction: 21308, at address 12452092
+         Thread number 3, executing VM instruction: 12339, at address 12501136
+         Thread number 1, executing VM instruction: 11434, at address 12468448
+         Thread number 1, executing VM instruction: 3085, at address 12468452
+         Thread number 2, executing VM instruction: 6219, at address 12484792
+         Thread number 3, executing VM instruction: 29308, at address 12501140
+         Thread number 0, executing VM instruction: 20494, at address 12452096
+         Thread number 2, executing VM instruction: 8050, at address 12484796
+         Thread number 1, executing VM instruction: 9698, at address 12468456
+         Thread number 3, executing VM instruction: 25653, at address 12501144
+         Thread number 0, executing VM instruction: 14796, at address 12452100
+         Thread number 0, executing VM instruction: 25959, at address 12452104
+         Thread number 1, executing VM instruction: 5656, at address 12468460
+         Thread number 3, executing VM instruction: 14332, at address 12501148
+         Thread number 2, executing VM instruction: 21685, at address 12484800
+         Thread number 2, executing VM instruction: 2804, at address 12484804
+         Thread number 3, executing VM instruction: 2499, at address 12501152
+         Thread number 0, executing VM instruction: 19398, at address 12452108
+         Thread number 1, executing VM instruction: 6977, at address 12468464
+         Thread number 1, executing VM instruction: 7573, at address 12468468
+         Thread number 2, executing VM instruction: 910, at address 12484808
+         Thread number 0, executing VM instruction: 12808, at address 12452112
+         Thread number 3, executing VM instruction: 5449, at address 12501156
+         Thread number 3, executing VM instruction: 30613, at address 12501160
+         Thread number 2, executing VM instruction: 12141, at address 12484812
+         Thread number 0, executing VM instruction: 29782, at address 12452116
+         Thread number 1, executing VM instruction: 26525, at address 12468472
+         Thread number 1, executing VM instruction: 17194, at address 12468476
+         Thread number 2, executing VM instruction: 29624, at address 12484816
+         Thread number 3, executing VM instruction: 27591, at address 12501164
+         Thread number 0, executing VM instruction: 19103, at address 12452120
+         Thread number 2, executing VM instruction: 29777, at address 12484820
+         Thread number 1, executing VM instruction: 15747, at address 12468480
+         Thread number 0, executing VM instruction: 15067, at address 12452124
+         Thread number 3, executing VM instruction: 229, at address 12501168
+         Thread number 3, executing VM instruction: 25502, at address 12501172
+         Thread number 1, executing VM instruction: 14764, at address 12468484
+         Thread number 2, executing VM instruction: 23179, at address 12484824
+         Thread number 0, executing VM instruction: 28881, at address 12452128
+         Thread number 0, executing VM instruction: 23329, at address 12452132
+         Thread number 1, executing VM instruction: 3332, at address 12468488
+         Thread number 3, executing VM instruction: 12200, at address 12501176
+         Thread number 2, executing VM instruction: 16000, at address 12484828
+         Thread number 2, executing VM instruction: 8869, at address 12484832
+         Thread number 1, executing VM instruction: 24365, at address 12468492
+         Thread number 3, executing VM instruction: 8092, at address 12501180
+         Thread number 0, executing VM instruction: 22286, at address 12452136
+         Thread number 0, executing VM instruction: 21600, at address 12452140
+         Thread number 1, executing VM instruction: 22802, at address 12468496
+         Thread number 3, executing VM instruction: 374, at address 12501184
+         Thread number 2, executing VM instruction: 2651, at address 12484836
+         Thread number 3, executing VM instruction: 31985, at address 12501188
+         Thread number 0, executing VM instruction: 25611, at address 12452144
+         Thread number 2, executing VM instruction: 2614, at address 12484840
+         Thread number 1, executing VM instruction: 23416, at address 12468500
+         Thread number 2, executing VM instruction: 19294, at address 12484844
+         Thread number 1, executing VM instruction: 121, at address 12468504
+         Thread number 0, executing VM instruction: 19797, at address 12452148
+         Thread number 3, executing VM instruction: 17624, at address 12501192
+         Thread number 3, executing VM instruction: 9680, at address 12501196
+         Thread number 1, executing VM instruction: 22411, at address 12468508
+         Thread number 0, executing VM instruction: 31496, at address 12452152
+         Thread number 2, executing VM instruction: 21681, at address 12484848
+         Thread number 2, executing VM instruction: 25989, at address 12484852
+         Thread number 1, executing VM instruction: 24576, at address 12468512
+         Thread number 0, executing VM instruction: 24040, at address 12452156
+         Thread number 3, executing VM instruction: 25038, at address 12501200
+         Thread number 1, executing VM instruction: 15827, at address 12468516
+         Thread number 2, executing VM instruction: 13070, at address 12484856
+         Thread number 3, executing VM instruction: 13902, at address 12501204
+         Thread number 0, executing VM instruction: 14157, at address 12452160
+         Thread number 2, executing VM instruction: 30488, at address 12484860
+         Thread number 1, executing VM instruction: 7733, at address 12468520
+         Thread number 3, executing VM instruction: 28626, at address 12501208
+         Thread number 0, executing VM instruction: 4925, at address 12452164
+         Thread number 3, executing VM instruction: 27884, at address 12501212
+         Thread number 0, executing VM instruction: 15489, at address 12452168
+         Thread number 1, executing VM instruction: 12586, at address 12468524
+         Thread number 2, executing VM instruction: 24312, at address 12484864
+         Thread number 2, executing VM instruction: 7565, at address 12484868
+         Thread number 0, executing VM instruction: 26920, at address 12452172
+         Thread number 3, executing VM instruction: 19616, at address 12501216
+         Thread number 1, executing VM instruction: 14063, at address 12468528
+         Thread number 3, executing VM instruction: 27818, at address 12501220
+         Thread number 1, executing VM instruction: 6377, at address 12468532
+         Thread number 2, executing VM instruction: 2210, at address 12484872
+         Thread number 0, executing VM instruction: 2761, at address 12452176
+         Thread number 0, executing VM instruction: 3158, at address 12452180
+         Thread number 3, executing VM instruction: 17033, at address 12501224
+         Thread number 1, executing VM instruction: 19341, at address 12468536
+         Thread number 2, executing VM instruction: 30356, at address 12484876
+         Thread number 3, executing VM instruction: 1187, at address 12501228
+         Thread number 0, executing VM instruction: 31953, at address 12452184
+         Thread number 2, executing VM instruction: 29724, at address 12484880
+         Thread number 1, executing VM instruction: 21147, at address 12468540
+         Thread number 1, executing VM instruction: 9846, at address 12468544
+         Thread number 0, executing VM instruction: 4780, at address 12452188
+         Thread number 3, executing VM instruction: 545, at address 12501232
+         Thread number 2, executing VM instruction: 26265, at address 12484884
+         Thread number 2, executing VM instruction: 19028, at address 12484888
+         Thread number 3, executing VM instruction: 20853, at address 12501236
+         Thread number 0, executing VM instruction: 1836, at address 12452192
+         Thread number 1, executing VM instruction: 24066, at address 12468548
+         Thread number 3, executing VM instruction: 4734, at address 12501240
+         Thread number 0, executing VM instruction: 934, at address 12452196
+         Thread number 1, executing VM instruction: 4979, at address 12468552
+         Thread number 2, executing VM instruction: 14396, at address 12484892
+         Thread number 0, executing VM instruction: 19380, at address 12452200
+         Thread number 3, executing VM instruction: 28423, at address 12501244
+         Thread number 2, executing VM instruction: 815, at address 12484896
+         Thread number 1, executing VM instruction: 16020, at address 12468556
+         Thread number 3, executing VM instruction: 13421, at address 12501248
+         Thread number 0, executing VM instruction: 6344, at address 12452204
+         Thread number 1, executing VM instruction: 31687, at address 12468560
+         Thread number 2, executing VM instruction: 1158, at address 12484900
+         Thread number 1, executing VM instruction: 26012, at address 12468564
+         Thread number 0, executing VM instruction: 26822, at address 12452208
+         Thread number 2, executing VM instruction: 14685, at address 12484904
+         Thread number 3, executing VM instruction: 25966, at address 12501252
+         Thread number 3, executing VM instruction: 22592, at address 12501256
+         Thread number 0, executing VM instruction: 7759, at address 12452212
+         Thread number 2, executing VM instruction: 4595, at address 12484908
+         Thread number 1, executing VM instruction: 27711, at address 12468568
+         Thread number 1, executing VM instruction: 21152, at address 12468572
+         Thread number 0, executing VM instruction: 27541, at address 12452216
+         Thread number 3, executing VM instruction: 4604, at address 12501260
+         Thread number 2, executing VM instruction: 32211, at address 12484912
+         Thread number 2, executing VM instruction: 2173, at address 12484916
+         Thread number 0, executing VM instruction: 24272, at address 12452220
+         Thread number 3, executing VM instruction: 806, at address 12501264
+         Thread number 1, executing VM instruction: 7311, at address 12468576
+         Thread number 1, executing VM instruction: 17341, at address 12468580
+         Thread number 3, executing VM instruction: 5563, at address 12501268
+         Thread number 0, executing VM instruction: 17899, at address 12452224
+         Thread number 2, executing VM instruction: 12305, at address 12484920

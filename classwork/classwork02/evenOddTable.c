@@ -16,14 +16,6 @@
  *    6. Try to make all the output columns line up neatly. You can
  *          decide whether they are left- or right- justified.
  *          Left is easier, but right looks nicer for the numbers.
- *    7. As an extra challenge, dress up your output with more text
- *          that describes what each row represents, like making it
- *          say "-10 squared is 100 which is EVEN"
- *    8. Another extra challenge, keep a running total of the squared
- *          values, and output a line at the end of the results that
- *          displays the 'sum of squares'
- *    9. Yet another challenge, make your program take the lower and
- *          upper bounds of the table as arguments on the command line
  */
 
 #include <stdio.h>
@@ -33,9 +25,17 @@
 
 int main( int argc, char * argv[] ) {
 
-   // TODO:  This is where you will fill in the code on your own
-   //   to get the program to perform the specified operations
-   
+   int i = START_VALUE;
+   int evenCount = 0;
+   int oddCount = 0;
+   printf( "\n\n   EVEN/ODD TABLE\n\n" );
+
+   while( i <= END_VALUE ) {
+      printf( "\t%3d\t%3d\t%s\n", i, (i * i), ((i % 2) == 0) ? "EVEN" : "ODD" );
+      ((i++ % 2) == 0) ? evenCount++ : oddCount++;
+   }
+   printf( "\n   #evens: %d\n", evenCount );
+   printf( "   # odds: %d\n", oddCount );
    exit( 0 );
 
 }

@@ -1,0 +1,6 @@
+Static say_StartHyperspace $= "{Prepare for Hyperspace;Jumping}
+                               { to system %star(EventClass_StarSystem,say_ss), %(EventClass_FriendlyStarClass), %ifcontains(\"O B A F G K M\",EventClass_StarClass,\"Scoopable\",\"Non Scoopable\"),}
+                               {.;. Hold on tight!;. Warp drive engaging;. Make it So!}
+                               {%ifcontains(EventClass_FriendlyStarClass,'Black Hole','. Warning star is Dangerous, throttle down now')}
+                               {%ifcontains(EventClass_FriendlyStarClass,'Neutron','. Warning star is Dangerous, throttle down now')}
+                               {%ifcontains(EventClass_FriendlyStarClass,'White Dwarf','. Warning star is Dangerous, throttle down now')}"

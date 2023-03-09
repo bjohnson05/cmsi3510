@@ -1,0 +1,2 @@
+The current time is: 15:13:04.52
+Enter the new time: 
