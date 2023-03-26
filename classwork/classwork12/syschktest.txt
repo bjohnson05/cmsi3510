@@ -1,0 +1,27 @@
+ Volume in drive D is DATA
+ Volume Serial Number is A24D-10BD
+
+ Directory of D:\bjohnson\Academia2\Lmu_Data\Teaching\Teaching3510[387]\2022-EvalsSpring\01_mycode\classwork\week12
+
+2022-03-31  15:54    <DIR>          .
+2022-03-31  15:54    <DIR>          ..
+2022-03-27  22:43               357 file1.c
+2022-03-30  13:42             1,084 file1.o
+2022-03-27  22:36               152 file2.c
+2022-03-30  13:42               879 file2.o
+2022-03-27  23:33               221 file3.c
+2022-03-30  13:42               933 file3.o
+2022-03-27  22:25                84 head1.h
+2022-03-27  22:29                85 head2.h
+2021-04-12  22:56    <DIR>          Mac
+2022-03-30  13:42               282 Makefile
+2022-03-30  13:42            49,718 mymain.exe
+2022-03-27  22:24    <DIR>          PC
+2022-03-31  15:54                 0 syschktest.txt
+2022-03-31  15:30               191 systemcheck.c
+2022-03-31  15:30            48,608 systemcheck.exe
+              13 File(s)        102,594 bytes
+               4 Dir(s)  66,053,754,880 bytes free
+
+
+   Test of the 'system()' library call:
